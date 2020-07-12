@@ -1,7 +1,7 @@
 List materi yang akan datang
-1) Pembukaan 
-2) Inti
-3) Penutup
+* Awalan 
+1) Inti
+2) Penutup
 
 -ingin menjadi Founder & CEO
 
