@@ -1,0 +1,48 @@
+Python termasuk bahasa pemrograman yang mudah untuk dipelajari. Sampai saat ini bahasa pemrograman Python hampir dipakai 
+di segala bidang seperti game, sistem berbasis web, dan bahkan dapat membuat mesin pencari sendiri. Jadi secara umum, bahasa 
+pemrograman ini dipakai dalam pengembangan website, pengembangan software, matematika, dan system scripting.
+
+
+
+
+Hal Apa yang Dapat Dilakukan Dengan Python
+Sebelum belajar Phyton lebih jauh, Anda harus mengetahui apa saja yang bisa dilakukan dengan bahasa pemrograman ini.
+
+Berikut ini beberapa hal yang dapat Anda lakukan menggunakan Python:
+
+Python dapat menjadi salah satu bahasa pemrograman untuk membangun server ketika Anda membuat website.
+Ketika Anda membutuhkan proses pembuatan prototipe atau pengembangan perangkat lunak siap produksi, Python dapat Anda andalkan.
+Python dapat digunakan untuk membuat workflow di dalam pengembangan perangkat lunak.
+Python dimanfaatkan untuk membaca dan memodifikasi sebuah file di dalam pembangunan sistem database.
+Python memungkinkan Anda untuk menangani big data dan menjalankan pemrosesan matematika yang komplek.
+
+
+
+
+Manfaat Belajar Python
+Meskipun ada banyak sekali bahasa pemrograman di luar sana, akan tetapi saya merekomendasikan Anda untuk belajar Python. 
+Tentu juga ada beberapa kelebihan yang perlu Anda ketahui. Jika dibandingkan dengan bahasa pemrograman lain, berikut 
+kelebihan bahasa pemrograman Python:
+
+Python memiliki sintaksis yang sederhana dan lebih mirip dengan Bahasa Inggris.
+Python dapat berjalan di berbagai macam sistem operasi.
+Python berjalan di dalam sistem interpreter, artinya bahasa baris kode bahasa pemrograman ini akan segera dieksekusi setelah ditulis.
+Python dapat diperlakukan dengan cara prosedural, cara berorientasi objek atau cara fungsional.
+Python memiliki sintaks yang memungkinkan pengembang untuk menulis program dengan ringkas daripada bahasa pemrograman lain.
+
+
+
+
+
+
+Jadi kenapa belajar Python?
+
+Cepat dan efektif;
+Mudah dipelajari;
+Banyak digunakan di perusahaan besar;
+Sekedar ingin tahu saja.
+
+
+
+
+by Basic-Python in 2020
