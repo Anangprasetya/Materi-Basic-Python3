@@ -1,0 +1,80 @@
+Materi kali ini kita akan melakukan proses Instalasi,
+Proses instalasi Python sangat mudah sekali 
+
+Langkah langkah 
+  1. buka website https://www.python.org/
+  2. lalu scroll kebawah sedikit cari seperti ini 
+  
+        Download
+        Python source code and installers 
+        are available for download for all 
+        versions!
+
+        Latest: Python 3.8.5
+  3. Klik aja Tulisan Download nya , maka otomatis Browser akan mendowload nya (Saya menggunakan Chrome)
+  4. Buka file di hasil download tersebut (settingan default hasil download  berada di This Pc -> Download )
+  5. klik kiri 2 kali
+  6. klik next aja
+  7. sampai finish
+ 
+
+
+
+
+Proses Pengecekan Python Apakah sudah siap atau belum
+Cara :
+  1. buka cmd (win + r) atau klik Pencarian di Laptop anta ketik command prompt
+  2. setelah terbuka langsung saja ketik     "python"    (tanpa tanda petik) lalu enter
+  
+  3.  Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 21:26:53) [MSC v.1916 32 bit (Intel)] on win32
+      Type "help", "copyright", "credits" or "license" for more information.
+      >>>
+  
+  4.  Jika muncuk seperti tulisan di atas , selamat Proses Instalasi anda Berhasil
+  
+  
+   
+Jika tidak muncul seperti point no 3 maka jangan panik 
+Cara mengatasi
+  1.) buka windows ekploler atau tekan (win + e)
+  2.) Cari folder python yang sesui dengan letak instalasi nya
+  3.) jika anda tidak merubahnya saat proses instalasi maka tersimpan di Local Disk C
+  4.) kalau di pc saya tersimpan di sini 
+        C:\Users\Anang\AppData\Local\Programs\Python\Python37-32
+        
+  5.) setelah folder anda ketemu maka klik kotak yang ada di sebalah kiri kotak pencarian anda
+      supaya mendapatkan link ekplorer nya seperti no 4 , lalu copy link nya
+  
+  6.) klik kanan pada This Pc 
+        (This Pc yang di dalamnya ada local disk C , local disk D, Local disk E )
+  7.) setelah klik kanan pilih paling bawah yaitu  properties
+  8.) lalu pilih Advanced system settings
+  9.) pilih paling bawah yaitu Environment Variables....
+ 10.) ada dua bagian yaitu 
+      User variables for Anang    dan     System variables
+      
+      
+ 11.) pilih yang System variables 
+ 12.) pilih path
+ 13.) lalu edit
+ 14.) lalu bagian kanan klik new
+ 15.) lalu pastekan link yang dicopy tadi
+    (C:\Users\Anang\AppData\Local\Programs\Python\Python37-32)
+ 16.) jika selesai klik ok
+ 17.) klik ok lagi
+ 18.) klik ok lagi
+ 
+ 
+ 
+jika sudah tutup semua program yang terbuka 
+1. buka command prompt
+2. ketik python
+      Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 21:26:53) [MSC v.1916 32 bit (Intel)] on win32
+      Type "help", "copyright", "credits" or "license" for more information.
+      >>>
+      
+3. maka akan muncul seperti tulisan di atas
+
+
+ 
+    
