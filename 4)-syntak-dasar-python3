@@ -1,0 +1,101 @@
+Pembahasa Kita kali ini adalah pengenalan perintah apa saja yang akan kita
+gunakan selama proeses Pembelajar Python
+
+
+Materi ke Satu :
+Materi Syntak Dasar 
+1) print
+   • Perintah menampilkan
+     Contoh :
+          print('Belajar Python') atau 
+          print(" Belajar Python"
+2) For
+  • Perintah untuk looping 
+    Contoh:
+        for i in rang(5):
+              print(i)
+3) While
+  • Perintah looping 
+    Contoh:
+        x = 1
+        while (x < 5): 
+           print(x)
+           x = x+1
+
+4) If 
+   • perintah if
+x=6
+y=3
+if (x==y):
+     Print True
+else:
+     Print False
+
+
+5) Elif 
+Contoh 
+b1=raw_input("input: ")
+
+if  'Pasw'==b1:
+      print True
+elif 'User'==b1:
+      Print True
+else:
+       Print Flase
+
+6) Import 
+di pakai untuk mengimport module atau file
+contoh :
+import time
+         time.sleep(1)
+         
+         
+Di pkai untuk menggantikan jika ada yg error contoh syntax error
+7) try:
+      print BBB <-- ini error
+except SyntaxError:
+       Print 'syntax error'
+
+
+8) Help
+  help(nama perintah)
+contoh:
+  help(print)
+  outptnya akan menampilkan
+  cara mengunakan print
+
+
+
+9) break 
+  Keluar dari loop
+
+  for i in range(1,20):
+       if 19==i:
+             print 'sampai ke '+i
+              Break
+        else:
+       print '\r loping  ke '+int(i),
+
+ 
+Help
+   • Digunakan saat di python shell help()
+
+
+
+10) type
+    digunakan untuk melihat type data nya 
+    contoh :
+    a = "Anangprasetya"
+    b = 22
+    
+    print(type(a))
+    print(type(b))
+    
+    
+    
+11) bin
+    digunakan untuk mengubah angka integer ke dalam bentuk biner
+    contoh :
+    a = 20
+    print(bin(a))
+    
