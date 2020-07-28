@@ -1,0 +1,46 @@
+by Basic-Python in 2020
+Anangprasetya created
+
+
+
+Pada pembahasan kali ini kita sudah masuk materi ke 2 yang akan menjelaskan 
+tentang bagaimana cara memberi komentar di Bahasa Pemrograman Python
+
+
+
+
+
+Materi ke Dua
+Materi Komentar Python
+
+Cara melakukan kometar di python adalah 
+  1. menggunakan tanda # (pagar)
+  2. menggunakan petik 2 sebabanyak 3 kali (""")
+
+
+Cara menggunakan atau penerapannya
+
+a = 4
+b = 7
+if a > b:   #ini adalah kondisi percabangan
+  print('Makan angka ',a, 'Lebih besar dari ',b)
+else:
+  print('isi sendiri terserah anda yah !! :) ')
+  
+ """ 
+  Dan untuk yang setelah if itu adalah statement atau 
+  apa yang dilakukan program ketika terjadi kondisi tertentu
+ """
+ 
+ 
+ 
+jika sudah mengetikkan perintah diatas
+maka run
+
+
+
+
+
+
+by Basic-Python in 2020
+Anangprasetya created
