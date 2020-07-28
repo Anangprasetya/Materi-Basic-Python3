@@ -1,3 +1,8 @@
+by Basic-Python in 2020
+Anangprasetya created
+
+
+
 Sejarah Python
 
 
@@ -41,3 +46,8 @@ Python 3.7 – 27 Juni 2018
 
 Nama python sendiri tidak berasal dari nama ular yang kita kenal. Guido adalah penggemar grup komedi Inggris bernama 
 Monty Python. Ia kemudian menamai bahasa ciptaannya dengan nama Python.
+
+
+
+by Basic-Python in 2020
+Anangprasetya created
