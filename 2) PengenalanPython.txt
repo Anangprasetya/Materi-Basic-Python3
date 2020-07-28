@@ -1,3 +1,7 @@
+by Basic-Python in 2020
+Anangprasetya created
+
+
 Python termasuk bahasa pemrograman yang mudah untuk dipelajari. Sampai saat ini bahasa pemrograman Python hampir dipakai 
 di segala bidang seperti game, sistem berbasis web, dan bahkan dapat membuat mesin pencari sendiri. Jadi secara umum, bahasa 
 pemrograman ini dipakai dalam pengembangan website, pengembangan software, matematika, dan system scripting.
@@ -46,3 +50,4 @@ Sekedar ingin tahu saja.
 
 
 by Basic-Python in 2020
+Anangprasetya created
