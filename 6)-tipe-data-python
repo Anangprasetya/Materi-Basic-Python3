@@ -1,0 +1,55 @@
+by Basic-Python in 2020
+Anangprasetya created
+
+
+Pada penjelasan kali ini kita akan membahas sedikit mengenai
+apa itu tipe data
+
+singkatnya seperti ini, tipe data adalah membagi termasuk jenis
+apa data kita yang akan kita olah nantinya
+
+contoh sederhana, saya memiliki huruf yang ingin saya tampilkan
+
+coding sederhana :
+  a = "Anangprasetya";
+  print(a)
+  
+ maka contoh di atas variabel a termasuk jenis huruf, untuk menangani
+ pengolahan data huruf adalah tipe data string
+ 
+ contoh lain, coding sederhana :
+    c = 28;
+    d = "Hari";
+    print("Ini adalah ",c," dan ",d)
+   
+kita sekarang variabel d tipe data string 
+lalu variabel c tipe data apa ?
+variabel berisi angka yang berarti memiliki tipe data integer
+
+
+sekarang kita masuk materi dan beberapa tipe data yang perlu anda ketahui
+di Bahasa Pemrograman Python
+
+
+
+Materi ke Tiga
+Materi Tipe Data
+Macam mamcam tipe data
+1) Integer
+2) String
+3) Float
+4) Boolean
+5) List
+6) Tuple
+
+
+
+
+
+
+
+
+
+
+by Basic-Python in 2020
+Anangprasetya created
