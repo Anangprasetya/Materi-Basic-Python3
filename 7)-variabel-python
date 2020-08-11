@@ -1,0 +1,69 @@
+by Basic-Python in 2020
+Anangprasetya created
+
+
+Dalam pembahasan kali ini kita akan mengenal apa itu Variabel ?
+variabel sering kita jumpai biasanya di pelajaran Matematika.
+contoh sederhana
+
+3 + 5 = x
+
+berapa nilai x ?
+ 3 + 5 = x
+   8  =  x
+ 
+maka nilai x adalah 8, x disebut variabel karena tempat untuk
+menampung nilai sementara
+
+jadi variabel adalah tempat untuk menyimpan nilai 
+
+sama halnya di Bahasa Pemrograman Python ini variabel digunakan
+untuk menyimpan nilai , bersifat sementara !
+mengapa sementara ?
+
+kita lihat contoh di bawah ini
+
+
+a = 8
+b = 4
+
+if a > b:
+    a = a + 3
+    print(a)
+else:
+    a = "Berubah menjadi string"
+    print(a)
+    
+    
+    
+disitulah terbukti bahwa nilai variabel dapat berubah dalam
+kondisi tertentu 
+
+ada pun aturan aturan yang harus di patuhi dalam pembuatan variabel
+yaitu dijelaskan dalam bab ini
+
+Materi ke Tujuh
+Materi Penulisan Varibel Python
+1) Nama variabel boleh diawali menggunakan huruf atau garis bawah (_), contoh: nama, _nama, namaKu, nama_variabel.
+
+2) Karakter selanjutnya dapat berupa huruf, garis bawah (_) atau angka, contoh: __nama, n2, nilai1.
+
+3)Karakter pada nama variabel bersifat sensitif (case-sensitif). Artinya huruf besar dan kecil dibedakan. Misalnya, variabel_Ku dan variabel_ku, keduanya adalah variabel yang berbeda.
+
+4)Nama variabel tidak boleh menggunakan kata kunci yang sudah ada dalam python seperti if, while, for, dsb.
+
+
+
+Ada empat point yang harus di taati untuk pembuatan variabel
+Bahasa Pemrograman Python
+
+
+
+
+
+
+
+
+
+by Basic-Python in 2020
+Anangprasetya created
