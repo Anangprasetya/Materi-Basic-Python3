@@ -1,0 +1,86 @@
+by Basic-Python in 2020
+Anangprasetya created
+
+
+
+Pada pembahasan kali ini kita akan membahas Operator Python
+Kita semua pasti tau operator yang ada di dalam matematika
+contoh : 3 + 6 = 9
++ adalah salah satu operator yang kita ketahui 
+
+sekarang kita akan membahas operator didalam Bahasa Pemrograman Python
+
+
+
+Materi ke Delapan
+Operator Python
+Terdiri dari :
+=> Operator Aritmatika
+ 1) +     Tambah                    : 2 + 5 = 7
+ 2) -     Kurang                    : 5 - 2 = 3
+ 3) *     Kali                      : 3 * 2 = 6
+ 4) /     Bagi                      : 4 / 2 = 2
+ 5) %     Sisa Bagi                 : 9 % 4 = 1
+ 6) //    Pembagi Hasil Di Bulatkan : 9 // 4 = 2 
+
+=> Operator Penugasan
+ Adalah opertor untuk mengisikan varibel dan biasanya digunakan di perulangan
+ Terdiri dari :
+  1) =        Mengisi variabel                        : x = 4
+  2) +=       Mengisi dan menjumlahkan                : x += 2    -> x = x + 2
+  3) -=       Mengisi dan mengurangkan                : x -= 4    -> x = x - 4
+  4) *=       Mengisi dan Mengkalikan                 : x *= 2    -> x = x * 2         
+  5) /=       Mengisi dan Membagi                     : x /= 5    -> x = x / 5
+  6) //=      Mengisi dan membagi hasil di bulatkan   : x //= 2   -> x = x // 2
+
+=> Operator Perbandingan
+Operator ini biasanya digunakan saat if (kondisi tertentu)
+1) !=     Tidak sama dengan
+2) ==     Sama dengan
+3) >=     Lebih dari sama dengan
+4) <=     Kurang dari sama dengan
+5) >      Lebih dari
+6) <      Kurang dari
+
+# Operator tambahan
+ >Operator Bitwise
+    Adalah operator yang digunakan untuk menangani bit
+   Terdiri dari :
+     1) & (and) 
+     2) ^ (xor) 
+     3) | (or) 
+     4) >> (bit geser ke kanan) 
+     5) << (bit geser ke kiri)
+ 
+>Operator Identitas
+   Adalah operator untuk membandingkan 2 variabel yang berbeda dengan nilai sama (variabel berbeda yang memiliki nilai sama)
+   Terdiri dari:
+     1) is
+     2) is not
+ 
+>Operator Membership
+  Digunakan untuk mengecek anggota apakah ada atau tidak yang ada di dalam list,  tuple, Dictionary
+Terdiri dari:
+     1) in
+     2) not in
+
+ >Operator Logika
+   Digunakan untuk membuat operasi logika , terdiri dari:
+   ingat!!! Operator Logika tidak sama dengan operator Bitwise
+     1) and
+     2) or
+     3) not
+
+
+
+
+
+
+
+
+
+
+
+
+by Basic-Python in 2020
+Anangprasetya created
