@@ -1,0 +1,69 @@
+by Basic-Python in 2020
+Anangprasetya created
+
+
+Pada Pembahasan Kali ini kita akan mengenal apa itu kondisi
+kondisi adalah keadaan yang biasanya terduga atau pun tak terduga
+
+contoh kondisi sehari hari
+
+jika hari ini hujan maka aku akan memakai payung
+jika tidak hujan aku langsung pergi ke kantor
+
+pernyataan di atas adalah salah satu kondisi 
+
+Sekarang mari kita terapkan di Bahasa Pemrograman Python
+
+
+
+
+Materi Ke Enam
+Kondisi Python
+=> if
+  Digunakan untuk mengeksekusi kode jika benar maka (True)  jika 
+  salah (False) kode tidak akan di eksekusi
+=> if else
+  Digunakan untuk menentukan langkah apa yang harus dilakukan 
+  jika program tidak sesui
+=> elif
+  Gabungan dari if else (if else) lebih dari 2 bisa memakai elif
+  
+  
+  
+Sekarang Lihat Contoh di bawah ini
+
+-> if
+    
+    a = 4
+    b = 7
+    if (a < b):
+      print('Nilai ',a,' Lebih kecil dari pada nilai ',b)
+      
+-> if else
+    
+    a = int(input('Masukkan nilai :'))
+    batas = 75
+    
+    if (a > batas):
+      print("Selamat Anda Lolos")
+    else:
+      print("Maaf Anda Belum Lolos")
+
+-> elif 
+
+  a = int(input('Masukkan nilai :'))
+  batas_max = 80
+  batas_min = 70
+    
+    if (a > batas_max):
+      print("Selamat Anda Lolos Dengan Hasil Di Atas Rata Rata")
+    elif (a > batas_min && a <= batas_max):
+      print("Anda Lolos")
+    else:
+      print('Anda Belum Lolos')
+    
+    
+
+
+by Basic-Python in 2020
+Anangprasetya created
