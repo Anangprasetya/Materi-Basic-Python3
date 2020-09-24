@@ -1,0 +1,109 @@
+  
+by Basic-Python in 2020
+Anangprasetya created
+
+
+
+Pada pertemua kali ini kita akan membahasa Perulangan Python
+
+Apa itu perulangan ?
+
+mudah nya seperti ini !
+jika kita ingin mengucapkan selamat ulang tahun kepada
+sesorang sebanyak 30 kali dengan pemrograman python
+dengan syntak seperti ini :
+
+print("Selamat ulang tahun")
+
+maka akan menguras banyak penyimpanan
+menguras banyak tenaga untuk copy paster sebanyak 30
+
+untuk itulah Bahasa Pemrograman menyediakan perintah Loop (Perulangan)
+di bahaasa Python sendiri sangat mudah penggunaan nya
+
+
+
+  
+by Basic-Python in 2020
+Anangprasetya created
+
+
+Materi ke Tujuh
+Perulangan (Loop) Python 3
+1) For
+ contoh dasar:
+    for i in range(10):
+           print(i)
+    
+    for i in range(2, 8):
+           print(i)
+
+2) While
+ Contoh dasar :
+      i = 1
+while i < 6:
+  print(i)
+  i += 1
+
+  
+ #Dengan break
+        i = 1
+            while i < 6:
+                 print(i)
+              if i == 3:
+                  break
+               i += 1
+    
+    #Dengan continue
+
+       i = 0
+       while i < 6:
+           i += 1 
+             if i == 3:
+                continue
+     print(i)
+      
+     #Dengan else
+          i = 1
+          while i < 6:
+              print(i)
+              i += 1
+         else:
+             print("i terlalu lewat")
+
+3)Nested
+ Contoh dasar:
+   for i in range(10):
+        for j in range(i):
+              print(i,j)
+
+
+   i = 1
+  while i < 10:
+      j = 1 
+     while j < i:
+          print(i,j)
+          j = j+1
+     i = i+1
+
+
+
+
+
+
+Saya akann contoh kan penggunaan Perulangan For Python
+
+
+untuk menulis selamat ulang tahun sebanyak 30 kali, kita hanya 
+perlu menuliskan
+
+for i in range(30):
+      print("Selamat Ulang Tahun")
+
+
+maka akan menampilkan kalimat selamat ulang tahun sebanyak 30 kali
+
+
+  
+by Basic-Python in 2020
+Anangprasetya created
