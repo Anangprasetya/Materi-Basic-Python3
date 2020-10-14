@@ -1,0 +1,177 @@
+by Basic-Python in 2020
+Anangprasetya created
+
+
+
+Untuk materi kali ini kita akan membahasa dan memperdalam
+tentang apa saja yang membahasa tentang angka di 
+bahasa pemrograman Python ini !
+
+kita semua tau bahwa angka tidak lepas dari kehidupan kita
+
+
+oleh karena itu python menyediakan banyak fungsi
+yang kita bisa olah dengan angaka ini
+
+
+Materi ke Delapan
+Number Python
+1) Tipe data yang terlibat
+  • int (integer) 
+    Contoh : 20  300  -22   -0103
+  • float
+    Contoh : 0.1   1.20   -41.2
+  • complex
+    Contoh : 3.14j   35.j 
+
+2) Konversi tipe data number
+  x = angka
+   > int(x)
+     Untuk mengkonversi ke integer
+   > long(x) (Sudah tidak ada di python 3.7)
+     Untuk mengetahui panjang angka
+     yang di inputkan
+   > len(x)
+      Sama seperti long()
+   > float(x)
+      Untuk konversi ke float
+   > complex(x)
+   > complex(x,y)
+      Untuk konversi ke complex
+
+3) Fungsi math
+  import math.x
+  a = angka
+x terdiri dari :
+   - absolute
+          syntak : abs(a) 
+          Jarak antara 0 sampai a
+   - ceiling
+          syntak : ceil(a)
+          angka terkecil kurang dari a
+   - eksponen
+           syntak : exp(a)
+           nilai eksponen dari a
+   - fabs
+           syntak : fabs(a)
+           nilai absolute dari a
+   - floor
+           syntak : floor(a)
+           integer terbesar tidak lebih dari a
+   - log
+          Syntak : log(a)
+          logaritma dari a,  a > 0
+   - log10
+          Syntak : log10(a)
+          Basis 10 logaritma dari a,  a>0
+   - max
+           Syntak : max(x1,x2,xn)
+           Mencari argumen terbesar
+   - min
+           Syntak : min(x1,x2,xn)
+           Mencari argumen terkecil
+   - modf
+           Syntak : modf(a)
+           Pecahan dan bilangan bulat dari a dalam tuple dua item, keduanya memiliki tanda yang sama dengan a, Integer dikembalikan sebagai float
+   - pow
+          Syntak : pow(a,b)
+          Nilai a pangkat b
+   - round
+          Syntak : round(a,b)
+          Nilai a di bulatkan menjadi b digit putaran python jauh dari nol,  round(0.5) adalah 1.0 dan round(-0.5) adalah -1.0
+   - akar kuadrat
+          Syntak : sqrt(a)
+          Akar kuadrat a,  a > 0
+
+4) Angka random
+   - choice
+        Syntak : choice(seq)
+        Item acak dari list, tuple dan string
+   - randrange
+        Syntak : randrange(start, stop,  step) 
+         Elemen yang dipilih secara acak dari jangkauan start stop step
+   - random
+        Syntak : random()
+        Random float r,  sehingga 0 <= r dan r<1
+   - seed
+        Syntak : seed(x)
+        Nilai awal integer yang untuk menghasilkan bilangan acak
+   - shuffle
+         Syntak : shuffle(list)
+         Mengacak list di tempat
+   - floor
+         Syntak : floo(x)
+         Bilangan terbesar tidak lebih dari x
+   - uniform
+         Syntak : uniform(x,y)
+         Sebuah float acak dari x sampai y
+
+
+5) Fungsi trigonometri
+     ~Acos
+            Syntak : acos(x)
+            Arc cos dari -1 sampai 1
+     ~Asin
+            Syntak : asin(x)
+            Arc sin dari -1 sampi 1
+     ~Atan
+            Syntak : atan(x)
+            Arc tan dari -1 sampi 1
+     ~Atan2
+            Syntak : atan2(y,x)
+            Arc tan y/x
+     ~Cos
+            Syntak : cos(x)
+            Menghitung cos x
+     ~Sin
+            Syntak : sin(x)
+            Menghitung sin x
+     ~Tan
+             Syntak : tan(x)
+             Menghitung tan x
+     ~Derajat
+              Syntak : degrees(x)
+              Mengkonversi dari sudut x radian ke degrees
+     ~Radian
+               Syntak : mengkonversi sudut x degrees ke radian
+
+
+6) Konstanta Matematika
+   *pi
+       Syntak : pi
+        Konstanta pi
+  *e
+       Syntak : e
+       Konstanta e
+
+
+
+  
+by Basic-Python in 2020
+Anangprasetya created
+
+
+
+
+
+Dari sekian banyak fungsi yang di sediakan oleh python
+membuat kita semakin mudah untuk membuat program
+dengan skala kecil maupun skala besar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+by Basic-Python in 2020
+Anangprasetya created
