@@ -1,0 +1,256 @@
+by Basic-Python in 2021
+Anangprasetya created
+
+
+Pada pertemuan kali ini kita telah memasuki materi string
+Yaitu bagaimana cara mengelolah kalimat di bahasa
+Pemrograman python !
+
+Hal ini akan bermanfaat untuk kedepannya !
+
+
+by Basic-Python in 2021
+Anangprasetya created
+
+
+
+
+Materi ke Sembilan
+String Python
+-> Mengakses nilai string
+Digunakan tanda ([ ]) kurung siku
+Contoh:
+nama = 'Anang'
+asal = 'Mojokerto
+print('nama[1] : ',nama[1]
+print('asal[1:4] : ',asal[1:4])
+
+
+-> Mengupdate string
+Digunakan untuk memperbarui string,
+nilai baru dapat di kaitkan dengan nilai sebelum nya
+Contoh :
+nama = 'Anang'
+print('Update : ',nama[:6] + 'Programmer')
+
+
+-> Escape Characters
+Dapat di wakili / ditulis dengan awalan
+notasi backslash
+- Notasi : \a
+Karakter : 0x07
+Ket : Bell atau alert
+- Notasi : \b
+Karakter : 0x08
+Ket : Backspace
+
+- Notasi : \F
+Karakter : 0x0c
+Ket : Formfred
+
+- Notasi : \n
+Karakter : 0x0a
+Ket : Newline
+
+- Notasi : \nnn
+Karakter :
+ket : octal notation, dimana di range 0.7
+
+- Notasi : \r
+Karakter : 0x0d
+Ket : Carriage return
+
+- Notasi : \s
+Karakter : 0x20
+Ket : Space
+
+- Notasi : \t
+Karakter : 0x09
+Ket : Tab
+
+- Notasi : \v
+Karakter : 0x0b
+Ket : Vertical tab
+
+- Notasi : \'
+Karakter : petik satu
+Ket : Di range 0.9, a.f, atau A.F
+
+- Notasi : \''
+Karakter : Petik dua
+Ket : Di range 0.9, a.f, atau A.F
+
+
+-> Operator string
+a = 'Anang'
+b = 'Programmer'
+Operator: +
+Penggunaan : a+b
+Ket : Menambah nilai pada kedua sisi
+
+Operator: *
+Penggunaan : a*2
+Ket: Perulangan kata dan penggabunggan
+
+Operator: [ ]
+Penggunaan : a[1]
+Ket : Memberikan nilai dari index yang di berikan
+
+Operator: [:]
+Penggunaan : a[1:3]
+Ket : Memberikan nilai dari kisaran yang di berikan
+
+Operator : in
+Penggunaan : B in a
+Ket : Menghasilkan 1 ke anggotaan, true jika ada karakter dalam string yang di berikan
+
+Operator : not in
+Penggunaan : b not in a
+Ket : Menghasilkan 1 ke anggotaan, true jika tidak ada karakter dalam string yang di berikan
+Operator : %
+Penggunaan : Dijelaskan ke subab berikut nya
+Ket : Melakukan format string
+
+
+-> Operator format string
+Untuk string dan membuat paket memiliki fungsi dari keluarga printf()
+Contoh : print('Nama saya %s dan beraat badan %d !'%('Anang',55))
+Operator : %c
+Ket : Karakter(dominan int)
+
+Operator : %s
+Ket : Konversi sting melalui str() sebelum memformat
+
+Operator : %i dan %d
+Ket : Dianggap sebagai bilangan bulat desimal
+
+Operator : %u
+Ket : Usigned desimal integer
+
+Operator : %o
+Ket : bilangan bulat oktal
+
+Operator : %x dan %X
+Ket : Bilangan bulat heksa
+
+Operator : %e dan %E
+Ket : Notasi ekponensial
+
+Operator : %f
+Ket : Bilangan real floating point
+
+Operator : %g
+Ket : Yang lebih pendek dari %f dan %e
+
+Operator : %G
+Ket : Lebig pendek dari %F dan %E
+
+
+-> Triple quote
+	Digunakan untuk membiaskan string untuk ditulis dalam
+Beberapa baris, termasuk kata kerja newlines, tabs, dan karakter lainnya
+Syntak:	variabel = “””				“””
+	Print(‘variabel’)
+-> String Unicode
+	Untuk memanipulasi string
+a = ‘Anang hoby programmer’
+	Capitalize :Membersarkan huruf pertama
+syntak : a.capitalize()
+	Center
+Syntak : a.center(3,’n’)
+	Count
+Syntak : a.count(sub,start,beg=0,end=len(str))
+	Decode
+Syntak : a.decode(encoding=’UTF-8’,errors=’strict’)
+	Encode
+Syntak : a.encode(encoding=’UTF-8’,errors=’strict’)
+	Endswith
+Syntak : a.endswith(suffix,beg=0,end=len(string))
+	Expandtabs
+Syntak : a.expandtabs(tabsize=8)
+	Find
+Syntak: a.find(str,beg=0,end=len(str))
+	Index
+Syntak: a.index(str,beg=0,end=len(str))
+	Isalnum()
+Syntak: a.isalnum()
+	Isalpha()
+Syntak: a.isalpha()
+	Isdigit()
+Syntak: a.isdigit()
+	Islower()
+Syntak: a.islower()
+	Isnumeric()
+Syntak: a.isnumeric()
+	Isspace()
+Syntak: a.isspace()
+	Istitle()
+Syntak:a.istitle()
+	Issupper()
+Syntak: a.issupper()
+	Join(seq)
+Syntak: join(a)
+	Len(String)
+Syntak: len(a)
+	Ijust()
+Syntak: ljust(width[,fillchar]))
+	Lower
+Syntak: lower()
+	Lstrip
+Syntak: lstrip()
+	Maketrans
+Syntak: maketrans()
+	Max
+Syntak: max(str)
+	Min
+Syntak: min(str)
+	Replace
+Syntak: replace(old, new[,max])
+	Rfind
+Syntak: rfind(str,beg=0,end=len(string))
+	Rindex
+Syntak: rindex(str,beg=0,end=len(string))
+	Rjust
+Syntak: rjust(width,[,fillchar])
+	Rstrip
+Syntak: rstrip()
+	Split
+Syntak : split(str=” “,num=string.count(str))
+	Splitlines
+Syntak : splitlines(num=string,count(‘\n’))
+	Startswith
+Syntak : startswith(str,beg=0,end=len(string))
+	Strip
+Syntak : strip([chars])
+	Swapcase
+Syntak : swapcase()
+	Title
+Syntak : title()
+	Translate
+Syntak : translate(table, deletechars=” “)
+	Upper
+Syntak : upper()
+	Zfill :
+Syntak : zfil(width)
+	Isdecimal
+Syntak : isdecimal()
+
+
+  
+
+
+
+Dan woww, cukup banyak bukan fungsi built-in python
+untuk memanipulasi String !,
+Kalian tidak perlu menghafal semuanya
+
+
+
+
+
+
+
+
+
+by Basic-Python in 2021
+Anangprasetya created
