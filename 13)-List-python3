@@ -1,0 +1,98 @@
+by Basic-Python in 2021
+Anangprasetya created
+
+Di pertemua ke 13 ini kita telah sampai di tipe data yang
+hampir mirip dengan array, yaitu list python !
+
+untuk penjelasan lengkap materinya !,
+Silahkan lanjutkan membacanya.
+
+
+by Basic-Python in 2021
+Anangprasetya created
+
+
+Materi Ke Sepuluh
+List Python
+Struktur data yang paling dasar adalah list. Python memiliki 6 jenis urutan built-in, 
+namun yang paling umum adalah list dan tuple, operasi ini meliputi pengindeksan, pengirisan, 
+penambahan, perbanyak dan pengecekan anggota, fungsi built-in untuk menemukan panjang list 
+dan menemukan elemen terbesar dan terkecil. Contoh : list_1 = [‘Kimia’,’Fisika’]
+List_2 = [1,2,3]
+List_3 = [‘a’,’b’,’c’]
+*_=> Akses Nilai List_*                                                                          	
+Var [] 	-> Pengindeks an / menampilkan letak yang di inginkan
+Var[ : ]  -> Sama seperti diatas namun ini ada batasnya
+ 
+*_=> Update Nilai List_*
+ - var = list
+print(“ “,var[2])
+Var[2]=x
+print(“ ”,var[2])
+ 
+-var = list
+print(var.append(x))
+
+*_=> Hapus Nilai List_*
+Var = list
+del var[x]
+print(“ ”,var)
+ 
+*_=> Operasi Dasar List_*
+-Syantak          	: len([1,2,3,4])
+Hasil                   	: 4
+Ket                     	: Menghitung panjang list
+ 
+-Syntak             	:[1,2,3]+[4,5,6]
+Hasil                  	: [1,2,3,4,5,6]
+Ket                     	: Menjumlahkan anggota dan pangjang list
+ 
+-Syntak             	: [‘Hallo’]*4
+Hasil                  	: [‘Hallo’,’Hallo’,’Hallo’,’Hallo’]
+Ket                     	: Mengulangkan anggota list
+ 
+-Syntak             	: 2 in [1,2,3]
+Hasil                  	: True
+Ket                     	: Syntak Operasi dasar untuk mengecek anggota list
+ 
+-Syntak             	: for x in [1,2,3]:
+                            	   Print(x,end=’ ’)
+Hasil                   	: 1 2 3
+Ket                     	: Menampilkan semua anggota list
+ 
+
+*_Indexing, slicing(pengirisan) dan matriks Pada List Python_*
+a = [“C++”,”Java”,”Python”,”PHP”]
+Syantak            	: a[2]
+Hasil                   	: ‘Python’
+Ket                     	: Offset mulai dari nol
+ 
+Syantak            	: a[-3]
+Hasil                   	: ‘Java’
+Ket                     	: Negatif hitung dari kanan
+ 
+Syntak              	: a[1:]
+Hasil                   	: ‘C++’,’Java’,’Python’,’PHP’
+Ket                     	: Slicing mengambil bagian
+ 
+*_Method dan Fungsi Build-in List_*
+- cmp                 	#TIdak tersedia di Python 3
+- len(list)          	Memberikan total panjang list
+- max(list)        	Nilai list yang terbesar
+- min(list)         	Nilai list yang terkecil
+- list(seq)         	Mengubah tuple menjadi list
+- list.append(obj)                         	Menambah objek ke list
+- list.count(obj)                             	Jumlah berapa kali pengembalian dalam objek list
+- list.extend(seq)                          	Tambahkan isi seq ke list
+- list.index(obj)                             	Indeks terendah dalam list
+- list.insert(index, obj)               	Sisipka objek ke list di indeks offer
+- list.pop(obj=list[-1])                 	Menghapus dan menggembalikan objek terakhir
+- list.remove(obj)                         	Remove object from list
+- list.reverse()                               	Membalikka list object di tempat
+- list.sort([fuct])                            	Urutkan object list
+- list.sort(reverse=True)            	Kebalikan dari sort(fuct)
+
+
+
+by Basic-Python in 2021
+Anangprasetya created
