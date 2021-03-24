@@ -1,0 +1,111 @@
+by Basic-Python in 2021
+Anangprasetya created
+
+
+Pada pertemuan kali ini materi nya sama dengan materi sebelumnya
+yaitu tentang list python !,
+Untuk materi kali ini adalah Tuple python !
+
+Lalu apa perbedaan List dan Tuple ?
+
+Perbedaan yang menonjol adalah List bisa di ubah isi nya
+Sedangkan Tuple tidak dapat di ubah !
+
+Untuk selengkapnya silahkan baca materi nya di bawah ini
+
+
+
+
+by Basic-Python in 2021
+Anangprasetya created
+
+
+Materi Ke Sebelas
+Tuple Python
+
+Tuple di Python sama seperti tipe data list namun tidak bias diubah.,
+Tuple menggunakan tanda kurung “ ( ) “ sebagai syntak nya.
+Contoh :
+            	Tup_1 = (‘Fisika’, ‘Kimia’, ‘1993’, ‘200’)
+            	Tup_2 = (1,2,3,4,5)
+            	Tup_3 = “a”,”b”,”c”
+              
+*_-> Akses nilai tuple_*
+Tup_1[0]          	= Fisika
+Tup_2[1:5]      	= 2,3,4,5   
+
+
+*_-> Menghapus nilai tuple_*
+Tuple tidak dapat dirubah isinya, jadi jika ingin merubah nya maka sama dengan 
+menghapusnya
+
+Tup = (‘Fisika’,’Kimia’,200,19)
+del Tup;
+print(Tup)
+*_-> Update nilai tuple_*
+Lagi lagi tuple tidak dapat dirubah isinya, jika ingin menambah isi tuple maka yang harus  di lakukan adalah membuat tuple baru
+Tup1 = (12,56)
+
+Tup2 = (‘abc’,’xyz’)
+Tup1[0] = 100;   -> Maka akan muncul pesan error karena isi nya tidak dapat dirubah, jadi harus
+            	Tup3 = Tup1+Tup2
+            	print(Tup3)
+              
+              
+*_-> Operasi dasar pada tuple_*
+ Syntak : len((1,2,6,8))
+ Hasil  	: 4
+ Ket    	: menghitung panjang tuple
+ 
+ Syntak : (1,2,3) + (4,5,6)
+ Hasil  	: (1,2,3,4,5,6)
+ Ket    	: Menambah tuple
+ 
+ Syntak : (‘Halo’,)*4
+ Hasil  	: (‘Halo’,’Halo’,’Halo’,’Halo’)
+Ket     	: Mengulang sebanyak 4 kali
+ 
+ Syntak : 3 in (1,2,3)
+ Hasil  	: True
+ Ket    	: Membership (operator Python)
+ 
+ Syntak : for x in (1,2,3):
+                            	print(x, end=’ ‘)
+ Hasil  	: 1 2 3
+ Ket    	: Memanggil ulang dengan for
+ 
+ 
+ *_-> Indexing slicing dan matrix_*
+            	t = (‘C++’,’Python’,’Java’)
+ Syntak : t[2]
+ Hasil  	: ‘Java’
+ Ket    	: dari angka 0
+ 
+Syntak  : t[-2]
+Hasil   	: ‘Python’
+ Ket    	: Dihitung dari kanan
+ 
+Syntak  : t[1:]
+Hasil   	: (‘Python’,’Java’)
+Ket     	: Mengambil bagian dari 1 hingga habis
+
+
+*_-> Fungsi Build-in_*
+            	Syntak  : len(tuple)
+            	Ket     	: Menghitung panjang tuple
+ 
+            	Syntak  : max(tuple)
+            	Ket     	: Mencari nilai maksimum
+ 
+            	Syntak  : min(tuple)
+            	Ket     	: Mencari nilai minimum
+ 
+            	Syntak  : tuple(seq)
+            	Ket     	: Mengkonversi list menjadi tuple
+
+
+
+
+
+by Basic-Python in 2021
+Anangprasetya created
