@@ -1,0 +1,94 @@
+by Basic-Python in 2021
+Anangprasetya created
+
+Hallo semua masih tetap semangatkan belajat Python nya
+Oke, di pertemuan 15 ini kita akan membahas tipe data yang 
+tak kalah menarik dari tipe data sebelumnya !
+
+Kita akan membahasa tipe data Dictionary
+
+Tipe data ini memiliki dua komponen utama 
+yaitu keyword dan value 
+
+Untuk lebih jelasnya silahkan simak materi dibawah ini
+
+
+by Basic-Python in 2021
+Anangprasetya created
+
+
+Materi Ke Dua Belas
+Dictionary Python
+
+Dictionary adalah tipe data kamus menggunakan kurung “{ }”, setiap kunci dan elemen dipisahkan oleh 
+titik dua “:” nilai dalam dict dapat berupa string, int, tuple. 
+Contoh : dict = {‘Nama’:’Anang’,’Umur’:’79’,’Hoby’:’Coding Python’}
+*_=> Mengakses Dict_*
+  dict[‘Nama’] = Anang
+  dict[‘Umur’] = 21
+  
+  
+*_=> Mengupdate Dict_*
+  Mengupdate dict adalah hanya mengubah element nya saja, tidak untuk kata kunci nya,
+  Contoh :     	- dict[‘Hoby’] = Programmer
+                    	- dict[‘Alamat’] = Mojokerto
+                      
+                      
+*_=> Menghapus Dict_*
+  Dalam tipe data dict untuk menghapusnya ada 3 macam
+1)      Mengapus kata kunci, contoh : del dict[‘Umur’]
+2)      Menghapus semua isi dict, contoh : dict.clear()
+3)      Menghapus tipe data dict, contoh : del dict
+
+
+*_=> Tentang Kata Kunci Dict_*
+  Mengenai kata kunci di tipe data dictionary ada dua peraturan yang harus kalian tau, yaitu :
+1)      Dua kata kunci yang sama, yang di baca oleh dict adalah yang paling belakang
+Contoh : aa = {‘Nama’:’Anang’,’Hoby’:’Coding’,’Hoby’:’Programmer’}, aa[‘Nama’]
+Maka yang di tampilkan adalah Programmer nya
+2)      Tidak di perbolehkan menggunakan kurung siku “[ ]” dalam penulisan kata kunci
+Contoh : aa = {[‘Nama’]:’Anang’,’Hoby’:’Coding’}
+Maka akan muncul pesan error
+
+
+*_=> Buid-in funsi dan method_*
+  Syantak      	: len(dict)
+  Ket             	: Menghitung panjang dictionary
+  
+  Syntak        	: str(dict)
+  Ket             	: Merepresetasi string yang terdapat dalam dictionary
+ 
+  Syntak        	: type(variable)
+  Ket             	: Menunjukkan suatu jenis tipe data
+ 
+  Syntak        	: dict.clear()
+  Ket             	: Mengahapus semua isi yang ada di tipe data dict
+ 
+  Syntak        	: dict.copy()
+  Ket             	: Menyalin dict satu ke dict yang lain
+ 
+  Syntak        	: dict.fromkeys()
+  Ket             	: Merubah menjadi sama elemen dicy nya
+ 
+  Syntak        	: dict.get(key, default = None)
+  Ket             	: Mengembalikan nilai jika tidak ada dalam dict
+ 
+  Syntak        	: dict.items()
+  Ket             	: Menunjukkan pasangan dalam dict
+ 
+  Syntak        	: dict.keys()
+  Ket             	: Menampilkan semua kata kunci dalam dict
+
+  Syntak        	: dict.setdefault()
+  Ket             	: jika kata kunci tidak ada , maka muncul ‘none’
+
+  Syntak        	: dict.update()
+  Ket             	: Menambah kata kunci dan elemen
+ 
+  Syntak        	: dict.values()
+  Ket             	: Lawan dari keys(), yaitu untuk menampilkan semua elemennya
+
+
+
+by Basic-Python in 2021
+Anangprasetya created
