@@ -1,0 +1,168 @@
+by Basic-Python in 2021
+Anangprasetya created
+
+Pada pertemuan kali ini kita akan membahasa bagaimana
+cara bahasa pemrograman Python memanipulasi Tanggal dan Waktu
+
+Untuk lebih jelasnya silahkan baca materi dibawah ini
+
+
+by Basic-Python in 2021
+Anangprasetya created
+
+
+
+Materi Ke Tiga Belas
+Date Time Python
+
+Time adalah angka satuan dari sejak tahun 1970
+
+
+*_=>  Pengecekan detik dari 1 Januari 1970 sampai sekarang_*
+   Di python 3
+   import time
+   waktu = time.time()
+   print(waktu)
+   
+   
+*_=>  Struct-time_*
+        	Index   : 0
+        	Atribut : tm_year     	(tahun 4 digit)
+        	Nilai 	: 2008
+ 
+        	Index   : 1
+        	Atribut : tm_mon     	(bulan)
+        	Nilai 	: 1 hingga 12
+ 
+        	Index   : 2
+        	Atribut : tm_day      	(hari)
+        	Nilai 	: 1 hingga 31
+ 
+        	Index   : 3
+        	Atribut : tm_hour     	(jam)
+        	Nilai 	: 0 hingga 23
+ 
+        	Index   : 4
+        	Atribut : tm_min      	(menit)
+        	Nilai 	: 0 hingga 59
+ 
+        	Index   : 5
+        	Atribut : tm_sec       	(detik)
+        	Nilai 	: 0 hingga 61	(60 atau 61)
+ 
+        	Index   : 6
+        	Atribut : tm_wday    	(hari dalam minggu)
+        	Nilai 	: 0 sampai 6  	(0 senin, 1 selasa, dst…)
+ 
+        	Index   : 7
+        	Atribut : tm_yday     	(hari ke dalam setahun)
+ 	        Nilai 	: 1 sampai 366
+ 
+        	Index   : 8
+        	Atirbut : tm_isdst
+        	Nilai 	: ---
+          
+          
+*_=>  Waktu local menggunakan struct_*
+        	Python 3
+        	import time;
+        	sekarang = time.localtime()
+        	print(sekarang)
+          
+          
+*_=>  Waktu local sederhana_*
+        	Import time
+          pekarang = time.asctime()
+          print(sekarang)
+
+
+*_=>  Modul time_*
+        	> time.altzone
+        	> time.asctime([tupletime])   	menampilkan waktu sekarang dengan rapi
+        	> time.perf_counter()            	menampilkan jam dari standart + sekarang
+        	> time.ctime([detik])             	sama seperti asctime
+        	> time.gmtime([detik])          	tentang dst musim panas
+        	> time.localtime([detik])       	waktu sekatang dalam standart
+        	> time.mktime([tupletime])   	mengformat localtime
+      	> time.sleep(detik)                	menghentikan waktu beberapa detik
+        	> time.strftime(rmt[,tupletime]) menampilkan string
+        	> time.strptime()
+                    	(str,fmt = ‘%a%b%d%h:%m:%s:%y’)
+                                                        	Sesuai format struktur
+        	> time.time()                        	menampilkan detik dari standart – sekarang
+        	> time.tzset()                        	--
+          
+          
+*_=>  Atribut penting dalam date time_*
+        	Atribut penting dalam penanganan waktu hanyalah ada 2 saja yaitu
+          1)      zona waktu
+          2)      time.tzname
+          
+          
+*_=>  Format strftime dan strptime_*
+        	- %a 	nama hari kerja disingkat
+        	- %A	nama hari kerja penuh
+        	- %b 	nama bulan disingkat
+        	- %B	nama bulan penuh
+        	- %C	nama abad(tahun / 100, kisaran 00 hingga 99)
+        	- %c 	representasi tanggal dan waktu yang diinginkan
+        	- %d 	hari dalam sebulan (01 hingga 31)
+        	- %D	sama dengan %m , %d %y
+        	- %e 	hari dalam sebulan (1 hingga 31)
+        	- %g 	seperti %G tetapi tanpa abad
+        	- %G	tahun 4 digit yang sesuai dengan angka (%V)
+        	- %h 	sama dengan %b
+       	  - %H	jam, menggunakan 24 jam (00 hingga 23)
+        	- %I 	jam, menggunakan 12 jam (01 hingga 12)
+        	- %j  	hari dalam setahun (001 hingga 356)
+        	- %m	bulan (01 hingga 12)
+        	- %M   menit
+        	- %n 	karakter dibaris baru
+        	- %p 	baik pagi, maupun sore sesuai dengan nilai yang diberikan
+        	- %r 	waktu dalam notasi am dan pm
+        	- %R	waktu dalam notasi 24 jam
+        	- %S 	detik
+        	- %t  	karakter tab
+        	- %T	waktu saat ini, sama dengan %H:%M:%S
+        	- %u 	hari kerja sebagai angka (1 hingga 7 dengan senin = 1)
+        	- %U	jumlah minggu tahun berjalan minggu hari pertama
+        	- %V	angka minggu tahun berjalan (01 -­ 53). Dimana minggu 1 adalah minggu pertama
+                    	Yang memiliki 4 hari ditahun berjalan dan senin hari pertama dalam minggu
+        	- %W   jumlah minggu tahun berjalan, senin hari pertama dalam minggu pertama
+        	- %w	hari dalam minggu sebagai decimal, minggu = 0
+        	- %x 	representasi tanggal yang disukai tanpa waktu
+        	- %X	representasi waktu yang disukai tanpa tanggal
+        	- %y 	tahun tanpa abad (00 - 99)
+        	- %Y	tahun termasuk abad ini
+        	- %Z	zona waktu atau nama atau singkatan
+        	- %z 	sama seperti %Z
+          
+          
+*_=>  Kalender satu bulan_*
+        	Kalender adalah tanggal yang menunjukkan hari dan tahun
+        	Import calendar
+        	panggil = calendar.month(2019, 1)
+        	print(panggil)
+          
+          
+*_=>  Modul kalender_*
+        	1. calendar.calendar()           	kalender tahun yang diinginkan
+        	2. calendar.firtweekday()      	hari pertama dalam hari kerja
+        	3. calendar.isleap()               	True jika tahun kabisat, sebaliknya
+        	4. calendar.leapdays(x,y)      	Menghitung total kabisat dari x sampai y
+        	5. calendar.mounthcalendar()	mengubah tanggal menjadi list
+        	6. calendar.monthrange()      	menampilkan hari ditanggal 1 dan jumlah seluruh harinya
+        	7. calendar.month()               	menampilkan calendar bulan yang diinginkan
+        	8. calendar.prcal()                 	mencetak tanggal ditahun berapa (diinginkan)
+        	9. calendar.prmonth()            	mencetak bulan di tahun berapa bulan berapa
+        	10. calendar.setfistweekday()	---
+        	11. calendar.timegan()          	mengkonversi tuple ke waktu gm
+        	12. calendar.weekday()         	menampilkan hari dalam bentuk wday
+
+
+
+
+
+
+by Basic-Python in 2021
+Anangprasetya created
