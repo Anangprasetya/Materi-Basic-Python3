@@ -1,0 +1,151 @@
+by Basic-Python in 2021
+Anangprasetya created
+
+
+Pada pertemuan ke 17 ini kita akan mengenal apa itu fungsi
+
+Fungsi adalah blok blok kode yang akan mempermudah programmer
+untuk mengerjakan project besar dengan cara memisah misahnya
+
+atau function bisa disebut seperti cetakan
+yang akan sering digunakan
+
+untuk lebih jelasnya silahkan cek materi dibawah
+
+
+by Basic-Python in 2021
+Anangprasetya created
+
+
+Materi Ke Tiga Belas
+Function (Fungsi) Python
+
+Functions adalah blok kode yang terorganisir dan dapat digunakan kembali 
+yang digunakan untuk melakukan tindakan tunggal yang terkait. 
+Functions ini adalah ciri khas bahasan pemrograman tingkat tinggi.
+
+*_>>> Definisi suatu fungsi_*
+            	Definisi suatu fungsi adalaj suatu aturan aturan yang berlaku 
+              untuk membuat suatu fungsi python
+            	-- Di mulai dengan “ def “ kata kunci ini di ikuti nama dan tanda kurung buka tutup
+            	-- Jika menggunakan parameter harus berada didalam kurung setelah nama
+            	-- Funsi dimulai dengan tanda “ : “ seperti if , for , while, dll
+            	-- Pernyataan pertama sesuai dengan apa yang diinginkan
+            	-- Tersedia return
+ 
+ 
+ *_>>> Contoh_*
+            	Berikut contoh sederhana membuat fungsi untuk menampilkan sebuah kalimat
+            	def tampilkan ():
+                            	print(‘Hallo dunia saya sedang belajar Python Function !’)
+ 
+            	setelah selesai, kita panggil dengan perintah
+            	tampilkan ()
+ 
+            	atau fungsi tersebut dapat kita tulis
+            	def tampilkan2 ():
+                            	kal = ‘Hallo dunia saya sedang belajar Python Function’
+                            	print(kal)
+            	tampilkan2()
+
+
+*_>>> Fungsi dengan parameter_*
+            	Funsi dengan parameter memudahkan kita untuk mengolah fungsi dengan 
+              syntak yang sama dengan hasil yang berbeda
+              
+ Contoh sederhana :
+def awal(a):
+            	print(‘Isi dari fungsi :’,a):
+            	return
+awal(‘Hallo Programmer !’)
+awal(‘Semangat’)
+ 
+atau juga dengan contoh lain seperti :
+def hitung(p,l):
+            	x = p * l
+            	return
+luas = hitung(4,6)
+print(‘Luas = ’,luas)
+ 
+ 
+ *_>>> Referensi dengan nilai_*
+            	Referensi dengan nilai adalah menambah kan nilai dari variabel 
+              yang ada di dalam funsi tersebut. Untuk lebih jelasnya mari 
+              kita liat contoh berikut,
+            	Kita aka membuat tipe data list sebagai contoh nya :
+            	def referensi(x):
+                            	x.append([1,2,3,4,5])
+                            	print(x)
+                            	return
+            	x = ([10,12,45,33])
+            	referensi(x)
+            	print(x)
+ 
+ 
+ *_>>> Kata kunci argumen_*
+            	Sub bab ini hampir sama dengan penggunaan parameter, untuk lebih jelasnya lihat contoh berikut
+            	def contoh(a,b):
+                            	print(‘Nama :’,a)
+                            	print(‘No hp :’,b)
+                            	return
+            	contoh(b = 0443333, a = ‘Anang’)
+            	
+            	atau contoh di atas dapat di akses salah satunya seperti contoh(a=’Anang’) itu saja, atau sebaliknya
+
+
+*_>>> Argumen panjang_*
+            	Argumen panjan disini contoh nya adalah parameter berbrntuk tuple. Berikut contoh program
+            	def tentangSaya(x,*y)                                	
+                            	print(‘Hasil nya :’)
+                            	print(x)
+                            	for i in y:
+                                            	print(i)
+                            	retun
+            	tentangSaya(10)
+            	tentangSaya(70, 60, 50,’Anang’)
+#tanda *y disini menandakan tuple
+atau dengan contoh lain
+def kedua(*y):
+            	print(‘Hasil : ’)
+            	for c in y:
+                            	print(c)
+            	return
+kedua(1)
+kedua(3,4,5,6)
+kedua(44,55,66,77)
+ 
+ 
+ *_>>> Nama lain dari def_*
+            	Seperti judul sub bab berikut bahwa def memang memiliki nama lain atau perintah lain namun kegunaannya mirip seperti fungsi, nama lain tersebut ialah ‘lambda’. Berikut adalah cara mengoperasikannya :
+x = lambda a,b,c  :  a+b*c
+print(‘Hasil adalah ’,x(2, 6, 7))
+print(‘Hasil adalah ’,x(4, 3, 5))
+ 
+ 
+ *_>>> Variabel local dan global_*
+            	Variabel local adalah variabel yang dideklarasikan dan di manipulasi di dalam funsi. Contoh
+def varlocal(x,y):
+            	total = x + y
+            	print(‘Total = ’,total)
+            	return total
+a = varlocal(2,6)
+print(‘Total = ’,a)
+ 
+            	variabel global adalah variabel yang dideklarasikan diluar funsi namun tetap bias di manipulasi di dalam fungsi. Contoh
+var_global = 0
+def glo(x,y):
+            	var_global = x + y
+            	print(‘Hasil = ’,var_global)
+            	return
+glo(2,6)
+print(‘Hasil = ’,var_global)
+
+
+
+
+
+Semoga Bermanfaat
+
+
+by Basic-Python in 2021
+Anangprasetya created
