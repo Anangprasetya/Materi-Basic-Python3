@@ -1,0 +1,73 @@
+by Basic-Python in 2021
+Anangprasetya created
+
+
+Pada pertemuan kali ini kita akan membahasa tentang modul
+yang ada di python
+
+Modul dapat kita buat sendiri
+Modul dapat kita langsung panggil karena sudah bawaan dari Python
+Modul dapat kita download dari internet, contoh : numpy, matplotlib dll
+
+
+by Basic-Python in 2021
+Anangprasetya created
+
+
+
+Materi Ke Empat Belas
+Modul Python
+
+Penjelasan singkat nya adalah bahwa modul digunakan untuk melengkapi program utama dengan cara di panggil file tersebut dahulu. 
+*_=> Cara pemanggilan_*
+        	1. import nama_modul
+        	2. from nama_folder import nama_modul
+        	3. from nama_folder import *
+ 
+        	Dan bisa untuk mengaliaskan nama import
+        	4. import nama_modul as nama_lainnya
+        	5. from nama_folder import nama_modul as nama_lainnya
+          
+          
+*_=> Contoh sederhana_*
+        	Biar kita lebih jelas mari kita lihat contoh – contoh ny saja.
+Langkah langkah :
+1)  	Save modul.py di directory tempat install pythonnya , kalau saya berada di
+C:\Users\Anang\AppData\Local\Programs\Python\Python37-32 dengan nama “inimodul.py”
+2)  	Lalu buat file utama missal denga nama utama.py , bebas mau di save dimanapun
+3)  	Ketikan di file inimodul.py dengan
+def nama(x):
+        	print(‘Selamat datang’,x,’di materi Modul’)
+4)      Lalu ketikkan juga di file python utama.py yang di save bebas tadi dengan
+import inimodul
+inimodul.nama(‘Anangprasetya’)
+ 
+atau dapat di aliaskan, contoh :
+import inimodul as x
+x.nama(‘Anangprasetya’)
+ 
+5)      Lalu run
+ 
+Sekarang kita akan menggunkan syantak bintang (*), untuk lebih jelasnya kita tambah function di file inimodul,py
+        	def nama(x):
+                    	print(‘Selamat datang’,x,’di materi Modul Python)
+        	
+        	def jumlah(a,b):
+                    	print(a,’+’,b,’=’,a+b)
+ 
+        	setelah selesai lalu save, lalu buka file utama.py, lalu ketikan :
+                    	from lain import *
+                    	nama(‘Anangprasetya’)
+                    	jumlah(’10,5’)
+lalu run di file utama.py
+
+
+
+
+
+
+
+
+
+by Basic-Python in 2021
+Anangprasetya created
